@@ -1,0 +1,33 @@
+.employee {
+    position: relative;
+    box-sizing: border-box;
+    background: #FFFFFF;
+    width: 100%;
+    margin-bottom: 1em;
+    padding: 2em 2em 1.5em 2em;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+}
+
+.employee p {
+    font-weight: bold;
+    font-size: 1em;
+    text-transform: capitalize;
+}
+
+.employee table {
+    width: 100%;
+    margin-bottom: 2em;
+}
+
+.employee table tr {
+    height: 2em;
+    line-height: 2em;
+}
+
+.employee table tr:nth-child(odd){
+    font-weight: bold;
+}
+
+.employee table tr:nth-child(even){
+    background: rgba(233, 233, 233, 0.5);
+}

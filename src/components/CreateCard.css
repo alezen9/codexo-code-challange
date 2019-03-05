@@ -1,0 +1,101 @@
+.create-card {
+    position: relative;
+    box-sizing: border-box;
+    width: 100%;
+    background: #FFFFFF;
+    margin-bottom: 2em;
+    padding: 2em;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+}
+
+.create-card p {
+    position: relative;
+    width: 100%;
+    height: 2em;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 1.3em;
+    font-weight: bold;
+    border-bottom: 1px solid rgba(158, 158, 158, 0.5);
+}
+
+.create-card form.create-form .error {
+  width: 100%;
+  color: rgba(255, 0, 0, 0.5);
+}
+
+.create-card form.create-form label {
+    position: relative;
+    width: 100%;
+    text-align: left;
+    font-weight: 500;
+    margin: 0;
+    align-self: flex-start;
+}
+
+.create-card form.create-form div{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.create-card form.create-form input {
+    position: relative;
+    width: 100%;
+    outline: 0;
+    background: transparent;
+    width: 100%;
+    border: 0;
+    border-bottom: 1px solid #888;
+    margin: .5em auto 1.5em auto;
+    padding: .8em 0;
+    box-sizing: border-box;
+    font-size: 1em;
+  }
+
+.create-card form.create-form div button {
+    position: relative;
+    text-transform: uppercase;
+    outline: 0;
+    color: rgb(0, 168, 118);
+    background: transparent;
+    border-radius: 10px;
+    border: 2px solid rgb(0, 168, 118);
+    width: 150px;
+    padding: 15px;
+    font-size: 14px;
+    margin: auto;
+    cursor: pointer;
+  }
+
+  /* select */
+  .custom-select {
+    border-bottom: 1px solid #888;
+    margin: 2em auto;
+    background: url(https://cdn0.iconfinder.com/data/icons/slim-square-icons-basics/100/basics-08-128.png) no-repeat right center;
+    background-size: 1.5em;
+    height: 100%;
+    width: 100%;
+ }
+
+  .custom-select select {
+    -moz-appearance:none;
+    -webkit-appearance:none;
+    appearance:none;
+    background: transparent;
+    border: none;
+    font-size: 1em;
+    padding: .4em 0;
+    width: 100%;
+    cursor: pointer;
+    color: rgba(102, 102, 102);
+ }
+
+ select option {
+    color: black;
+  }
+
+ select option[data-default] {
+    color: #888;
+  }

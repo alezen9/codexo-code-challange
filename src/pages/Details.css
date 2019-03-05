@@ -1,0 +1,16 @@
+.details {
+    width: 75%;
+    margin: 3em auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.details .company-details {
+    position: relative;
+    background: #FFFFFF;
+    width: 100%;
+    margin: 2em 0;
+    padding: .5em 2em 1.5em 2em;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+}
